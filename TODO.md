@@ -1,6 +1,7 @@
 ## To-Do
 
 - [ ] Add functionality to login and save routes
+- [ ] Get MapBox key from .env
 - [ ] Enable route data export to image, to share on social media or save on device
 - [ ] Improve responsive design
 - [ ] Add number of locations limit, can be setup as 10 to start
