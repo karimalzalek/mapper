@@ -1,0 +1,51 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vue files
+dist/
+*.local
+*.env.local
+*.env.*.local
+.env
+.env.* 
+
+# Editor folders and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Cache and temporary files
+.DS_Store
+*.bak
+*.tmp
+
+# Babel and ESLint cache
+babel.config.js
+.eslintcache
+
+# Lock files (specific to npm or yarn)
+package-lock.json
+yarn.lock
+
+# Test coverage
+coverage/
+
+# Production build
+build/
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Other potential generated files
+*.gz
